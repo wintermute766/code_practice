@@ -40,4 +40,9 @@ public class MainTest {
         Assert.assertArrayEquals(new int[]{0, 1}, Main.findUnsortedSubarray(new int[]{5, 4}));
     }
 
+    @Test
+    public void testFindUnsortedSubarray8() {
+        Assert.assertArrayEquals(new int[]{0, 7}, Main.findUnsortedSubarray(new int[]{15, 20, 3, 2, 4, 21, 17, 18}));
+    }
+
 }
